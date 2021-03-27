@@ -1,7 +1,7 @@
 /* Basic Style */
 .body {
-  background-color: #f8f8f8;
-  color: #333;
+  background-color:#f8f8f8;
+  color:#333;
   font-family: Lato, sans-serif;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .header-main__link--more-inf {
-  font-family: fantasy, cursive;
+  font-family:fantasy, cursive;
 }
 
 @media (max-width: 768px) {
@@ -34,7 +34,9 @@
   margin: 0 auto 0;
 }
 
-.input_text, .item-task__label, .section-add__input{
+.input_text,
+.item-task__label,
+.section-add__input{
   width: 56%;
   display: inline-block;
   flex-grow: 1;
@@ -49,7 +51,8 @@
   padding: 0;
 }
 
-.item-task, .section__title {
+.item-task,
+.section__title {
   list-style: none;
 }
 
